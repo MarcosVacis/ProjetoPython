@@ -86,10 +86,10 @@ df_consolidados = pd.DataFrame(consolidado_data)
 
 def enviar_para_banco(df_consolidados, dados):
     usuario = 'postgres'
-    senha = 'M@rcos157'
-    host = 'localhost'
+    senha = '*****'
+    host = '
     porta = '5432'
-    banco = 'ProjetoEstudos'
+    banco = ''
 
     senha_encoded = quote(senha)
     conn = create_engine(
